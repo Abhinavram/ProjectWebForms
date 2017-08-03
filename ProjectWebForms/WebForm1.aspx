@@ -5,12 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
-    <style type="text/css">
-        .auto-style1 {
-            width: 100%;
-        }
-    </style>
-</head>
+    </head>
 <body>
     <h2> Details </h2>
     <form id="form1" runat="server">
@@ -31,6 +26,9 @@
                 </td>
             </tr>
         </table>
+        <p>
+            <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/WebForm2.aspx">Goto Manage Details Page</asp:HyperLink>
+        </p>
     </form>
 </body>
 </html>
